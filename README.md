@@ -49,10 +49,7 @@ The Contact Us page provides the café's address, contact details, opening hours
 
 The website was created using:
 
-- HTML5
-- Visual Studio Code
-- Google Chrome
-- GitHub
+HTML5, Visual Studio Code, Google Chrome, GitHub
 
 The current version of the website uses HTML only.
 
@@ -71,25 +68,13 @@ South Africa
 
  Opening Hours
 
-- Monday - Friday: 07:00 - 18:00
-- Saturday - Sunday: 08:00 - 17:00
+Monday - Friday: 07:00 - 18:00
+Saturday - Sunday: 08:00 - 17:00
 
  Main Features
 
 The website includes:
-
-- Navigation links
-- Café information
-- Food and drink menu
-- Food prices
-- Special promotions
-- Seasonal desserts
-- Upcoming events
-- Image gallery
-- Contact information
-- Table booking form
-- Contact form
-- Google Maps location
+Navigation links, Café information, Food and drink menu, Food prices, Special promotions, Seasonal desserts, Upcoming events, Image gallery, Contact information, Table booking form, Contact form, Google Maps location
 
  How to Open the Website
 
@@ -99,31 +84,10 @@ The website includes:
 4. Open `index.html`.
 5. Open the file in Google Chrome.
 
- Project Files
-
-text
-SipAndSavourCafe
-│
-├── index.html
-├── about.html
-├── menu.html
-├── gallery.html
-├── offers.html
-├── contact.html
-└── README.md
-
-
  Purpose of the Website
 
 The main purpose of the website is to give customers an easy way to learn about Sip & Savour Café before visiting.
 
 The website provides information about:
 
-- The café
-- The menu
-- Prices
-- Special offers
-- Opening hours
-- Location
-- Contact details
-- Table bookings
+The café, The menu, Prices, Special offers, Opening hours, Location, Contact details, Table bookings
