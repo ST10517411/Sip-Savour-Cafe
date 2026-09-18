@@ -551,7 +551,14 @@ Current Version
 
 The current version combines the original Part 1 website structure with the Part 2 CSS styling, branding, background image and responsive design improvements.
 
-24. References
+24. Responsive Evidence
+<img width="1919" height="1079" alt="mobile phone view" src="https://github.com/user-attachments/assets/3040ebf1-52e4-4e2c-a9c6-f86d5baf56d1" />
+<img width="956" height="1079" alt="responsive layout" src="https://github.com/user-attachments/assets/148bb3bd-6f3d-490c-8616-896e924566ee" />
+<img width="1919" height="1079" alt="tablet desktop view" src="https://github.com/user-attachments/assets/2e1a15df-165c-4583-a528-499bc3081672" />
+
+
+
+25. References
 
 The following sources were used to support the technical aspects of the website and the README documentation.
 
