@@ -1,19 +1,14 @@
 Sip & Savour Café Website
 
-1. Project Overview
-
+Project Overview
 Sip & Savour Café is a website created for a fictional local café based in Rosebank, Johannesburg, Gauteng, South Africa.
 
 The website was developed as a Part 1 and Part 2 web development project. Part 1 focused on creating the website structure and content using HTML. Part 2 improved the original website by adding CSS styling, branding, a café logo, a fixed background image, visual effects and responsive layouts for different screen sizes.
 
 The website provides customers with information about the café, the menu, promotions, events, photographs, contact details and booking information.
 
-2. Business Information
-
-Business name: Sip & Savour Café
-Location: 50 Bath Avenue, Rosebank, Johannesburg, Gauteng, 2196, South Africa
-Email: hello@sipandsavourcafe.co.za
-Phone: 011 000 0000
+Business Information
+Business name: Sip & Savour Café Location: 50 Bath Avenue, Rosebank, Johannesburg, Gauteng, 2196, South Africa Email: hello@sipandsavourcafe.co.za Phone: 011 000 0000
 
 Opening hours:
 
@@ -21,8 +16,7 @@ Monday – Friday: 07:00 – 18:00
 
 Saturday – Sunday: 08:00 – 17:00
 
-3. Project Objectives
-
+Project Objectives
 The main objectives of the website are to:
 
 Give customers information about Sip & Savour Café.
@@ -43,8 +37,7 @@ Create a consistent visual identity across all pages.
 
 Make the website usable on desktop, tablet and mobile screen sizes.
 
-4. Website Pages
-
+Website Pages
 Home Page
 
 The Home page introduces Sip & Savour Café and includes welcome information, services, popular items, location information and links to the other pages.
@@ -85,18 +78,12 @@ Contact Us Page
 
 The Contact Us page contains the café address, email, telephone number, opening hours, booking form, contact form and an embedded Google Map.
 
-5. Part 1 Development
-
+Part 1 Development
 Part 1 focused on creating the basic website structure using HTML.
 
 The six main pages are:
 
-index.html
-about.html
-menu.html
-gallery.html
-offers.html
-contact.html
+index.html about.html menu.html gallery.html offers.html contact.html
 
 The pages were connected using navigation links.
 
@@ -126,8 +113,7 @@ Footer sections
 
 Embedded map content
 
-6. Part 2 Development
-
+Part 2 Development
 Part 2 improved the existing Part 1 website instead of creating a completely new website.
 
 A shared stylesheet called style.css was added to control the appearance of the pages.
@@ -166,8 +152,7 @@ Desktop layout
 
 Mobile and tablet preview controls
 
-7. Website Branding
-
+Website Branding
 A PNG logo was created for Sip & Savour Café.
 
 The logo contains:
@@ -184,23 +169,18 @@ Green, brown, gold and cream colours
 
 The logo is intended to appear consistently across the website pages.
 
-8. Website Background
-
+Website Background
 A café interior image is used as the main website background.
 
 The CSS uses the following properties:
 
-background-image: url('../images/cafe-background.jpg');
-background-size: cover;
-background-position: center;
-background-attachment: fixed;
+background-image: url('../images/cafe-background.jpg'); background-size: cover; background-position: center; background-attachment: fixed;
 
 The background-attachment: fixed property keeps the background image fixed while the page content scrolls.
 
 A darker overlay is also used on the hero section to improve text readability.
 
-9. CSS Design
-
+CSS Design
 The shared style.css file controls the appearance of the website.
 
 It includes styling for:
@@ -231,31 +211,23 @@ Footer
 
 Responsive layouts
 
-10. Glass-Style Sections
-
+Glass-Style Sections
 The header and main sections use a transparent glass-style effect. The design uses semi-transparent white backgrounds, blur, borders and shadows to make the content readable while still showing the café background.
 
 Example:
 
-background: rgba(255, 255, 255, 0.65);
-backdrop-filter: blur(12px);
-border: 1px solid rgba(255, 255, 255, 0.5);
-box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+background: rgba(255, 255, 255, 0.65); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.5); box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
 
-11. Gallery Effects
-
+Gallery Effects
 The gallery images have simple hover and active effects.
 
 When the mouse is placed over an image, it moves slightly upwards and receives a larger shadow.
 
-.gallery img:hover {
-    transform: translateY(-10px);
-}
+.gallery img:hover { transform: translateY(-10px); }
 
 These effects are created with CSS and do not require JavaScript.
 
-12. Responsive Design
-
+Responsive Design
 The website was designed to work on different screen sizes, including desktop computers, tablets and mobile phones.
 
 CSS media queries are used to change the layout according to screen width.
@@ -288,16 +260,14 @@ Navigation remains compact.
 
 The logo is slightly smaller than the desktop version.
 
-13. Mobile and Tablet Preview Controls
-
+Mobile and Tablet Preview Controls
 A simple Mobile and Tablet layout selection area was added for testing the appearance of the website.
 
 The controls use HTML radio buttons and CSS. No JavaScript is required for the controls.
 
 The controls are intended as a simple way to preview the different layouts while developing the website.
 
-14. Technologies and Tools Used
-
+Technologies and Tools Used
 HTML5
 
 HTML5 was used to create the structure and content of the website pages.
@@ -322,29 +292,14 @@ Google Chrome
 
 Google Chrome was used to view and test the website.
 
-15. Project Structure
-
+Project Structure
 The project can be organised as follows:
 
-Sip-and-Savour-Cafe/
-│
-├── index.html
-├── about.html
-├── menu.html
-├── gallery.html
-├── offers.html
-├── contact.html
-├── style.css
-│
-└── images/
-    ├── logo.png
-    ├── cafe-background.jpg
-    └── other website images
+Sip-and-Savour-Cafe/ │ ├── index.html ├── about.html ├── menu.html ├── gallery.html ├── offers.html ├── contact.html ├── style.css │ └── images/ ├── logo.png ├── cafe-background.jpg └── other website images
 
 The exact image filenames may differ depending on the files stored in the project.
 
-16. How to Run the Website
-
+How to Run the Website
 Using Visual Studio Code
 
 Open the project folder in Visual Studio Code.
@@ -367,8 +322,7 @@ Opening the HTML File Directly
 
 The website can also be opened by double-clicking index.html. Live Server is useful during development because it makes it easier to view changes.
 
-17. Testing
-
+Testing
 The website should be tested to make sure:
 
 All navigation links work.
@@ -401,8 +355,7 @@ Desktop layout works correctly.
 
 The website does not require JavaScript.
 
-18. Design Choices
-
+Design Choices
 The design uses green, brown, gold and cream colours because they suit the café theme and create a warm and natural appearance.
 
 The café background image helps create a stronger connection between the website and a café environment.
@@ -411,8 +364,7 @@ The transparent sections allow the background image to remain visible while keep
 
 The same navigation, logo and colour scheme are used throughout the website to keep the pages consistent.
 
-19. Accessibility and Usability
-
+Accessibility and Usability
 The website uses descriptive alternative text for images where appropriate.
 
 The navigation is kept simple so visitors can move between the main pages easily.
@@ -421,8 +373,7 @@ Forms contain labels and input fields for the information required from customer
 
 Responsive CSS allows the website to adapt to different screen sizes.
 
-20. Limitations
-
+Limitations
 This is a front-end website created using HTML and CSS.
 
 The following features are not connected to a real database or backend system:
@@ -435,8 +386,7 @@ Newsletter subscriptions
 
 The website does not use JavaScript. The forms are therefore mainly included as part of the website interface and demonstration.
 
-21. Future Improvements
-
+Future Improvements
 Possible future improvements include:
 
 Connecting the booking form to a real database.
@@ -457,8 +407,7 @@ Adding real-time booking availability.
 
 Publishing the website online using GitHub Pages or another hosting service.
 
-22. Project Status
-
+Project Status
 Part 1
 
 Website structure completed.
@@ -499,8 +448,7 @@ Desktop layout maintained.
 
 Mobile and tablet preview controls added.
 
-23. Changelog
-
+Changelog
 Part 1 – Initial Website
 
 Created the basic Sip & Savour Café website structure.
@@ -551,15 +499,7 @@ Current Version
 
 The current version combines the original Part 1 website structure with the Part 2 CSS styling, branding, background image and responsive design improvements.
 
-24. Responsive Evidence
-<img width="1919" height="1079" alt="mobile phone view" src="https://github.com/user-attachments/assets/3040ebf1-52e4-4e2c-a9c6-f86d5baf56d1" />
-<img width="956" height="1079" alt="responsive layout" src="https://github.com/user-attachments/assets/148bb3bd-6f3d-490c-8616-896e924566ee" />
-<img width="1919" height="1079" alt="tablet desktop view" src="https://github.com/user-attachments/assets/2e1a15df-165c-4583-a528-499bc3081672" />
-
-
-
-25. References
-
+References
 The following sources were used to support the technical aspects of the website and the README documentation.
 
 GitHub Docs, 2026. About the repository README file. Available at: < https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes. > [Accessed 18 September 2026].
@@ -581,3 +521,27 @@ MDN Web Docs, 2026. Flexbox. Available at: < https://developer.mozilla.org/en-US
 Unsplash, 2025. Can I use Unsplash images for personal or commercial projects? Available at: < https://help.unsplash.com/en/articles/2612315-can-i-use-unsplash-images-for-personal-or-commercial-projects. > [Accessed 18 September 2026].
 
 Unsplash, 2025. Terms and Conditions. Available at: < https://unsplash.com/terms. > [Accessed 18 September 2026].
+
+## Part 3: JavaScript, SEO and Form Improvements
+
+The existing Part 1 and Part 2 pages and design were retained. Part 3 adds the following features:
+
+- JavaScript menu search to filter menu rows and items.
+- Gallery hover effects and a larger image viewer with previous/next buttons.
+- Keyboard support for gallery viewing (Enter, Space, Escape and arrow keys).
+- Booking form validation and an on-page confirmation message.
+- A new `enquiry.html` page with topic-specific responses.
+- Contact form validation and a `mailto:` link that prepares an email in the visitor's email application.
+- SEO page titles, meta descriptions, keywords and responsive viewport metadata.
+- `robots.txt` and `sitemap.xml` templates.
+- A responsive lightbox and form message styles appended to the existing stylesheet.
+
+### Part 3 limitations
+
+The booking form is a front-end demonstration and does not save a booking or check live availability. The contact form opens the visitor's email application; the visitor must send the email. The enquiry form displays a demonstration response and does not send or store enquiries. A real booking or contact service requires a backend or a trusted form-processing service.
+
+### Changelog
+
+- **Part 1:** Created six main HTML pages with café information, menu, gallery, promotions and contact details.
+- **Part 2:** Added the shared CSS styling, café logo, fixed background, glass-style sections, gallery hover effects and responsive mobile/tablet layouts.
+- **Part 3:** Added JavaScript interactions, menu search, single-image gallery viewer, booking/contact validation, enquiry page, SEO metadata, robots and sitemap templates.
