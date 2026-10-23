@@ -1,7 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Menu - Sip & Savour Cafe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore breakfast, lunch, coffee, drinks, pastries and desserts at Sip & Savour Café in Rosebank.">
+    <meta name="keywords" content="Sip and Savour Cafe, Rosebank cafe, Johannesburg cafe, coffee, breakfast, desserts">
+    <title>Menu | Sip & Savour Café Rosebank</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -19,10 +22,19 @@
         <a href="gallery.html">Gallery</a> |
         <a href="offers.html">Special Offers</a> |
         <a href="contact.html">Contact Us</a>
-    </nav>
+        <a href="enquiry.html">Enquiries</a>
+</nav>
 
 </header>
 <main>
+
+        <div class="section">
+            <h2>Find Something on Our Menu</h2>
+            <label for="menuSearch">Search food and drinks</label>
+            <input type="search" id="menuSearch" placeholder="Try latte, cake or breakfast..." aria-label="Search menu items">
+            <p id="noResults" aria-live="polite"></p>
+        </div>
+
 
 <section class="section">
     <h2>Our Menu</h2>
@@ -30,43 +42,43 @@
     <h3>Breakfast</h3>
     <table>
         <tr><th>Item</th><th>Price</th></tr>
-        <tr><td>Sunrise Breakfast</td><td>R85</td></tr>
-        <tr><td>Avocado Toast</td><td>R72</td></tr>
+        <tr data-menu-item<td>Sunrise Breakfast</td><td>R85</td></tr>
+        <tr data-menu-item<td>Avocado Toast</td><td>R72</td></tr>
     </table>
 
     <h3>Lunch</h3>
     <table>
         <tr><th>Item</th><th>Price</th></tr>
-        <tr><td>Chicken Wrap</td><td>R95</td></tr>
-        <tr><td>Garden Salad</td><td>R78</td></tr>
+        <tr data-menu-item<td>Chicken Wrap</td><td>R95</td></tr>
+        <tr data-menu-item<td>Garden Salad</td><td>R78</td></tr>
     </table>
 
     <h3>Drinks</h3>
     <table>
         <tr><th>Item</th><th>Price</th></tr>
-        <tr><td>House Latte</td><td>R42</td></tr>
-        <tr><td>Fresh Lemonade</td><td>R38</td></tr>
-        <tr><td>Fresh Juice</td><td>R40</td></tr>
-        <tr><td>Hot Chocolate</td><td>R45</td></tr>
+        <tr data-menu-item<td>House Latte</td><td>R42</td></tr>
+        <tr data-menu-item<td>Fresh Lemonade</td><td>R38</td></tr>
+        <tr data-menu-item<td>Fresh Juice</td><td>R40</td></tr>
+        <tr data-menu-item<td>Hot Chocolate</td><td>R45</td></tr>
     </table>
 
     <h3>Desserts</h3>
     <table>
         <tr><th>Item</th><th>Price</th></tr>
-        <tr><td>Chocolate Cake</td><td>R55</td></tr>
-        <tr><td>Cheesecake</td><td>R58</td></tr>
-        <tr><td>Fresh Fruit Cheesecake</td><td>R65</td></tr>
-        <tr><td>Lemon Tart</td><td>R50</td></tr>
-        <tr><td>Apple Crumble</td><td>R60</td></tr>
-        <tr><td>Chocolate Brownie</td><td>R55</td></tr>
-        <tr><td>Strawberry Cheesecake</td><td>R65</td></tr>
+        <tr data-menu-item<td>Chocolate Cake</td><td>R55</td></tr>
+        <tr data-menu-item<td>Cheesecake</td><td>R58</td></tr>
+        <tr data-menu-item<td>Fresh Fruit Cheesecake</td><td>R65</td></tr>
+        <tr data-menu-item<td>Lemon Tart</td><td>R50</td></tr>
+        <tr data-menu-item<td>Apple Crumble</td><td>R60</td></tr>
+        <tr data-menu-item<td>Chocolate Brownie</td><td>R55</td></tr>
+        <tr data-menu-item<td>Strawberry Cheesecake</td><td>R65</td></tr>
     </table>
 
     <h3>Pastries</h3>
     <table>
         <tr><th>Item</th><th>Price</th></tr>
-        <tr><td>Butter Croissant</td><td>R32</td></tr>
-        <tr><td>Blueberry Muffin</td><td>R35</td></tr>
+        <tr data-menu-item<td>Butter Croissant</td><td>R32</td></tr>
+        <tr data-menu-item<td>Blueberry Muffin</td><td>R35</td></tr>
     </table>
 </section>
 
@@ -74,10 +86,10 @@
     <h2>Weekly Promotions</h2>
     <table>
         <tr><th>Day</th><th>Promotion</th></tr>
-        <tr><td>Monday</td><td>Any breakfast meal with regular coffee - R110</td></tr>
-        <tr><td>Wednesday</td><td>10% off Chicken Wrap or Garden Salad</td></tr>
-        <tr><td>Friday</td><td>Chocolate Cake with House Latte - R90</td></tr>
-        <tr><td>Weekend</td><td>Sunrise Breakfast with Fresh Juice - R105</td></tr>
+        <tr data-menu-item<td>Monday</td><td>Any breakfast meal with regular coffee - R110</td></tr>
+        <tr data-menu-item<td>Wednesday</td><td>10% off Chicken Wrap or Garden Salad</td></tr>
+        <tr data-menu-item<td>Friday</td><td>Chocolate Cake with House Latte - R90</td></tr>
+        <tr data-menu-item<td>Weekend</td><td>Sunrise Breakfast with Fresh Juice - R105</td></tr>
     </table>
 </section>
 
@@ -86,5 +98,6 @@
     <p>© 2026 Sip & Savour Cafe</p>
     <p>Facebook | Instagram | TikTok</p>
 </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
